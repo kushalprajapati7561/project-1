@@ -1,0 +1,163 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    margin: 6rem 4rem;
+}
+
+.container {
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.num1 {
+    font-size: 13px;
+    color: white;
+    background: black;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    padding: .5rem;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: .5rem;
+}
+
+.num2,
+.num3,
+.num4 {
+    font-size: 13px;
+    color: rgb(129, 128, 128);
+    background: rgb(242,242,242);
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    padding: .5rem;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: .5rem;
+}
+
+.container .first {
+    font-size: 13px;
+    color: black;
+}
+
+.container span {
+    font-size: 13px;
+    color: rgb(129, 128, 128);
+}
+
+.svg {
+    margin-top: 6px;
+}
+
+.left_bottom {
+    margin-top: 7rem;
+    padding: 0 8rem ;
+}
+
+.left_bottom img {
+    width: 5rem;
+}
+
+.left_bottom h1 {
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.left_bottom p {
+    font-size: .8rem;
+    letter-spacing: .5px;
+    margin-bottom: 2.5rem;
+    line-height: 1.4rem;
+    color: rgb(94, 93, 93);
+}
+
+.left_bottom label {
+    color: rgb(85, 84, 84);
+    font-size: .8rem;
+}
+
+.left_bottom input {
+    margin: .5rem 0;
+    padding: .8rem 2rem;
+    border-radius: .5rem;
+    font-size: .8rem;
+    width: 100%;
+    border: none;
+    background: rgb(231, 229, 229);
+    font-weight: 100;
+}
+
+.left_bottom button {
+    width: 100%;
+    background: rgb(5, 110, 190);
+    color: white;
+    padding: .8rem 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5rem;
+    margin-top: .8rem;
+}
+.left_bottom .back {
+    display: flex;
+    text-align: center;
+    padding: 0 7rem;
+}
+
+.left_bottom .back p{
+    margin-top: 6rem;
+    font-size: .8rem;
+}
+
+.left_bottom svg {
+    margin-right: 1rem;
+    margin-top: 6rem;
+    font-size: .8rem;
+}
+
+.main {
+    display: flex;
+    background: rgb(238, 238, 238);
+}
+
+.left {
+    width: 45%;
+    background: white;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;
+}
+
+.right {
+    width: 55%;
+    height: 100vh;
+}
+
+.right .image {
+    align-items: center;
+    justify-content: center;
+}
+
+.right .image img {
+    height: 32rem;
+    padding: 0rem 6rem;
+    width: 100%;
+}
+.right h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.right .logos img {
+    padding: 0 6rem;
+    height: 6rem;
+}
